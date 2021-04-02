@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <title>Register form</title>
+  <link rel="stylesheet" href="signup.css">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+body {
+    background: url("background.jpg");
+  background-repeat: no-repeat;
+  background-size: 1400px 660px;
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.topnav {
+  overflow: hidden;
+  background-color: rgba(0,0,0,.2);
+}
+
+.topnav a {
+  float: right;
+  color: #f2f2f2;
+  text-align: right;
+  padding: 35px 35px;
+  text-decoration: none;
+  font-size: 20px;
+}
+
+.topnav a:hover {
+  background-color: black;
+  color: red;
+}
+
+.topnav a.active {
+  background-color: red;
+  color: red;
+}
+</style>
+</head>
+<body>
+<form action="connect.php" method="post">
+    <label for="user">UserName</label>
+    <input type="text" name="username" id="user">
+    <label for="email">Email</label>
+    <input type="email" name="email" id="email">
+    <label for="pass">password</label>
+    <input type="password" name="password" id="pass">
+    <label for="phone">Phone</label>
+    <input type="text" name="phone" id="phone">
+    <input type="submit" value="Registration">
+    <p>If you are register member please <a href="login.html">Log In Here</a></p>
+  </form>
+<div class="topnav">
+  <img src="IMG_20170607_083556-removebg-preview.jpg" width="80px" height="90px">
+  <a href="logIn.html">Home</a>
+  <a href="login.html">LogIn</a>
+  <a href="login.html">Signup</a>
+  <a href="login.html">About</a>
+  <a href="login.html">CCNA</a>
+  <a href="login.html">Ethical Hacking</a>
+  <a href="login.html">Pfsense</a>
+  <a href="login.html">Virtual machine</a>
+</div>
+
+</body>
+</html>

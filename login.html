@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title></title>
+    <link rel="stylesheet" href="LogIn.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <style>
+body {
+    background: url("background.jpg");
+  background-repeat: no-repeat;
+  background-size: 1400px 660px;
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+
+.topnav {
+  overflow: hidden;
+  background-color: rgba(0,0,0,.2);
+}
+
+.topnav a {
+  float: right;
+  color: #f2f2f2;
+  text-align: right;
+  padding: 35px 35px;
+  text-decoration: none;
+  font-size: 20px;
+}
+
+.topnav a:hover {
+  background-color: black;
+  color: red;
+}
+
+.topnav a.active {
+  background-color: red;
+  color: red;
+}
+</style>
+    
+  </head>
+  <body>
+    <div class="topnav">
+  <img src="IMG_20170607_083556-removebg-preview.jpg" width="80px" height="90px">
+  <a href="login.html">Home</a>
+  <a href="login.html">LogIn</a>
+  <a href="login.html">Signup</a>
+  <a href="login.html">About</a>
+  <a href="login.html">CCNA</a>
+  <a href="login.html">Ethical Hacking</a>
+  <a href="login.html">Pfsense</a>
+  <a href="login.html">Virtual machine</a>
+</div>
+</body>
+  <body>
+    
+
+<form action="login.php" method="POST">
+<div class="login-box">
+  <h1>Login</h1>
+  <div class="textbox">
+    <i class="fas fa-user"></i>
+    <input type="text" name="username" placeholder="Username">
+  </div>
+
+  <div class="textbox">
+    <i class="fas fa-lock"></i>
+    <input type="password" name="password" placeholder="Password">
+  </div>
+  	<input type="submit" class="btn" value="Sign in">
+   </form>
+    <form action="#">
+  <p>If you are not register please <a href="SignUp.html">Sign Up </a></p>
+  </form>
+</div>
+  </body>
+</html>
